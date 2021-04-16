@@ -142,11 +142,6 @@ img {
   color: var(--alt-text-color);
 }
 
-/* попробовать сделать реверсивеый класс */
-.foot-contacts {
-  color: rgba(255, 255, 255, 0.6);
-}
-
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -327,6 +322,7 @@ img {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   color: var(--alt-title-color);
   background-color: var(--accent-color);
+  outline: none;
 }
 
 .portfolio {
@@ -387,4 +383,8 @@ img {
 
 .footer-item:not(:last-child) {
   margin-bottom: 9px;
+}
+
+.footer-contacts {
+  color: rgba(255, 255, 255, 0.6);
 }
