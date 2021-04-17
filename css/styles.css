@@ -361,6 +361,10 @@ img {
   padding-bottom: 60px;
 }
 
+.footer-item {
+  line-height: 1.71;
+}
+
 .footer-item.white {
   color: var(--alt-title-color);
 }
